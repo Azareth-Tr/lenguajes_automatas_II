@@ -1,4 +1,4 @@
-// Generated from c:/Users/azare/OneDrive/Documents/GitHub/lenguajes_automatas_II/Competencia 2/prueba/Expr.g4 by ANTLR 4.13.1
+// Generated from c:/Users/azare/OneDrive/Documents/GitHub/lenguajes_automatas_II/Competencia 2/ejercicio2_v2/Expr.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.Token;
@@ -34,7 +34,7 @@ public class ExprLexer extends Lexer {
 
 	private static String[] makeLiteralNames() {
 		return new String[] {
-			null, null, "'+'"
+			null, null, "'-'"
 		};
 	}
 	private static final String[] _LITERAL_NAMES = makeLiteralNames();
@@ -113,7 +113,7 @@ public class ExprLexer extends Lexer {
 		"\u0005\u000f\u0001\u0000\u0000\u0000\u0007\t\u0007\u0000\u0000\u0000\b"+
 		"\u0007\u0001\u0000\u0000\u0000\t\n\u0001\u0000\u0000\u0000\n\b\u0001\u0000"+
 		"\u0000\u0000\n\u000b\u0001\u0000\u0000\u0000\u000b\u0002\u0001\u0000\u0000"+
-		"\u0000\f\r\u0005+\u0000\u0000\r\u0004\u0001\u0000\u0000\u0000\u000e\u0010"+
+		"\u0000\f\r\u0005-\u0000\u0000\r\u0004\u0001\u0000\u0000\u0000\u000e\u0010"+
 		"\u0007\u0001\u0000\u0000\u000f\u000e\u0001\u0000\u0000\u0000\u0010\u0011"+
 		"\u0001\u0000\u0000\u0000\u0011\u000f\u0001\u0000\u0000\u0000\u0011\u0012"+
 		"\u0001\u0000\u0000\u0000\u0012\u0013\u0001\u0000\u0000\u0000\u0013\u0014"+
