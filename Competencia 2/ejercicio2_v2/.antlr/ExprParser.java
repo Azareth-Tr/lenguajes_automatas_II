@@ -1,4 +1,4 @@
-// Generated from c:/Users/azare/OneDrive/Documents/GitHub/lenguajes_automatas_II/Competencia 2/prueba/Expr.g4 by ANTLR 4.13.1
+// Generated from c:/Users/azare/OneDrive/Documents/GitHub/lenguajes_automatas_II/Competencia 2/ejercicio2_v2/Expr.g4 by ANTLR 4.13.1
 import org.antlr.v4.runtime.atn.*;
 import org.antlr.v4.runtime.dfa.DFA;
 import org.antlr.v4.runtime.*;
@@ -28,7 +28,7 @@ public class ExprParser extends Parser {
 
 	private static String[] makeLiteralNames() {
 		return new String[] {
-			null, null, "'+'"
+			null, null, "'-'"
 		};
 	}
 	private static final String[] _LITERAL_NAMES = makeLiteralNames();
